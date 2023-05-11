@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 body {
@@ -27,11 +26,10 @@ header a {
 
 /* navigations link */
 
-/* navigations link */
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+   
 }
 
 #menu, #logo {
@@ -39,11 +37,17 @@ header a {
     background-color: black;
 }
 
-#menu li {
-    float: right;
-    list-style-type: none;
-    
+ul {
+    list-style: none;
+    text-align: center;
 }
+
+li {
+    display: inline-block;
+    letter-spacing: 10px;
+    padding: 1%;
+}
+
 
 #menu a {
     text-decoration: none;
@@ -73,8 +77,3 @@ header a {
     color: #3a3a3a;
 }
 
-.title-style {
-    position: relative;
-    margin-top: 50px;
-    margin-left: 290px;
-}
