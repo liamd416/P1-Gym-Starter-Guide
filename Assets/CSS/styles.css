@@ -19,7 +19,6 @@ h1, h2, h3 {
     letter-spacing: 4px;
     color: white;
     text-align: center;
-    background-color: black;
 }
 
 header a {
@@ -37,6 +36,7 @@ header a {
 
 #menu, #logo {
     line-height: 75px;
+    background-color: black;
 }
 
 #menu li {
@@ -71,4 +71,10 @@ header a {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+.title-style {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 290px;
 }
