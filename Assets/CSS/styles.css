@@ -84,15 +84,25 @@ li {
 }
 
 #leftHomeContent {
-    width: 60%;
+    width: 50%;
 }
 
 #rightHomeContent {
-    width: 40%;
+    display: flex;
+    width: 50%;
+}
+
+.slantedContainer {
+    width: 25%;
     background-color: black;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 23% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 87% 100%);
+}
+
+#homePageContent {
+    background-color: black;
+    width: 75%;
 }
 
 #imageStyle {
-
+    height: 100%;
 }
