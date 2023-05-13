@@ -77,3 +77,21 @@ li {
     color: #3a3a3a;
 }
 
+
+.homeSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftHomeContent {
+    width: 60%;
+}
+
+#rightHomeContent {
+    width: 40%;
+    background-color: black;
+}
+
+#imageStyle {
+
+}
