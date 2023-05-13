@@ -90,6 +90,7 @@ li {
 #rightHomeContent {
     width: 40%;
     background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 23% 100%);
 }
 
 #imageStyle {
