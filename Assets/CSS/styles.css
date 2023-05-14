@@ -77,6 +77,7 @@ li {
     color: #3a3a3a;
 }
 
+/* Home page stylings */
 
 .homeSection{
     display: flex;
@@ -107,7 +108,10 @@ li {
 
 #imageStyle {
     height: 100%;
-    /* animation-name: imageAnimation;
+    /* 
+    POTENTIAL ANIMATION FEATURE
+
+    animation-name: imageAnimation;
     animation-duration: 5s;
     animation-fill-mode: forwards;
     overflow: hidden;
@@ -124,5 +128,17 @@ li {
 }
 */
 footer {
-    z-index: 99;
+    
+}
+
+/* Workouts page stylings */
+
+#workoutSection {
+    background-color: red;
+}
+
+#armMedia {
+    width: 50%;
+    height: 50%;
+    float: left; /* currently causes footer to overlap with image*/
 }
