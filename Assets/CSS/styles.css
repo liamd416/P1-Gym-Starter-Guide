@@ -90,6 +90,7 @@ li {
 #rightHomeContent {
     display: flex;
     width: 50%;
+    z-index: 100;
 }
 
 .slantedContainer {
@@ -103,6 +104,25 @@ li {
     width: 75%;
 }
 
+
 #imageStyle {
     height: 100%;
+    /* animation-name: imageAnimation;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    */
+}
+
+/* @keyframes imageAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+*/
+footer {
+    z-index: 99;
 }
