@@ -161,7 +161,10 @@ footer {
     display: flex;
     height: 100%;
     align-items: center; /* aligned content vertically*/
+    flex-direction: column;
 }
+
+
 
 #displayContainer {
     display: table;
