@@ -180,7 +180,7 @@ table, th, td {
     width: 50%;
     height: 50%;
 
-    /* currently causes footer to overlap with image*/
+    /* currently causes footer to overlap with image NOW FIXED*/
 }
 
 #circle-container {
