@@ -163,6 +163,19 @@ footer {
     align-items: center; /* aligned content vertically*/
 }
 
+#displayContainer {
+    display: table;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+.workoutTable {
+    margin-left: auto;
+    margin-right: auto;
+}
 #armMedia {
     width: 50%;
     height: 50%;
