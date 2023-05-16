@@ -112,7 +112,6 @@ li {
     width: 75%;
 }
 
-
 #imageStyle {
     height: 100%;
     /* 
@@ -176,6 +175,7 @@ table, th, td {
   }
 
 .workoutTable {
+    border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
 }
@@ -261,15 +261,15 @@ table, th, td {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #3a3a3a;
     color: #fafafa;
     display: block;
     cursor: pointer;
 }
 
 .join-button:hover {
+    color: #3a3a3a;
     background-color: #fafafa;
-    color: #f16c6b;
 }
 
 /* Media queries */
