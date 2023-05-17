@@ -104,16 +104,26 @@ li {
 .slantedContainer {
     width: 25%;
     background-color: black;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 87% 100%);
+    border-color: black;
+    clip-path: polygon(0 0, 101% 0, 100% 100%, 87% 100%);
+    transform: skewY(0.001deg);
 }
 
 #homePageContent {
     background-color: black;
     width: 75%;
+    padding: 5%;
 }
+
+#rightTopHomeText {
+    margin-bottom: 10%;
+}
+
+#rightBottomHomeText {}
 
 #imageStyle {
     height: 100%;
+    scale: 1.0;
     /* 
     POTENTIAL ANIMATION FEATURE
 
@@ -159,26 +169,40 @@ footer {
     width: 60%;
     display: flex;
     height: 100%;
-    align-items: center; /* aligned content vertically*/
+    align-items: center;
+
+    /* aligned content vertically*/
     flex-direction: column;
 }
-
-
 
 #displayContainer {
     display: table;
     width: 100%;
 }
 
-table, th, td {
-    border: 1px solid black;
-  }
+.workoutSubtext{
+    background-color: #f16c6b;
+}
 
 .workoutTable {
     border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    color: black;
 }
+
+.workoutTable td, th {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+}
+
+.workoutTable thead {
+    background-color: #a3a3a3;
+}
+
 #armMedia {
     width: 50%;
     height: 50%;
