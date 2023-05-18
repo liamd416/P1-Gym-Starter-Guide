@@ -185,6 +185,7 @@ footer {
 }
 
 .workoutTable {
+    margin-top: 5%;
     border-collapse: collapse;
     width: 90%;
     background-color: #FFFFFF;
