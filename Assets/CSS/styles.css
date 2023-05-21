@@ -144,19 +144,28 @@ li {
 }
 */
 footer {
-    position: static;
+    /* position: static; */
+    height: 100px;
+    background-color: #f16c6b;
 }
 
 /* Workouts page stylings */
 
+.workoutPage {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
 /* Outer container for workout section */
 .workoutSection {
+    background-color: aquamarine;
     display: flex;
     height: 400px;
 }
 
 .imageContainer {
-    background-color: grey;
+    /* background-color: grey; */
     width: 40%;
     display: flex;
     height: 100%;
@@ -165,7 +174,7 @@ footer {
 }
 
 .contentContainer {
-    background-color: grey;
+    /* background-color: grey; */
     width: 60%;
     display: flex;
     height: 100%;
@@ -173,6 +182,10 @@ footer {
 
     /* aligned content vertically*/
     flex-direction: column;
+}
+
+.titleParagraphSection {
+    width: 100%;
 }
 
 #displayContainer {
@@ -185,7 +198,7 @@ footer {
 }
 
 .workoutTable {
-    margin-top: 5%;
+    /* margin-top: 5%; */
     border-collapse: collapse;
     width: 90%;
     background-color: #FFFFFF;
@@ -325,52 +338,28 @@ footer {
 /* Media queries */
 
 @media screen and (max-width: 950px) {
-    h1, h2 {
-        text-align: center;
-    }
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-    }
-    #cover-text {
-        left: 0;
+     body {
+        max-width: 100%;
     }
 
-    #club-ethos {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading, .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    #photos {
-        column-count: 3;
-    }
 }
 
 /* For small screen sizes 800px */
 
 @media screen and (max-width: 800px) {
-
-    h1, h2 {
-        text-align: center;
+    .workoutSection {
+        flex-direction: column;
+        padding: 15px;
+    }
     }
 
-    #photos {
-        column-count: 2;
+    .imageContainer {
+        width: 100%;
+        height: auto;
     }
-}
+
+    .contentContainer {
+        width: 100%;
+        height: auto;
+    }
+  }
