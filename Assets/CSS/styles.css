@@ -154,12 +154,13 @@ footer {
 .workoutPage {
     display: flex;
     height: 100%;
+    width: 100%;
     flex-direction: column;
 }
 
 /* Outer container for workout section */
 .workoutSection {
-    background-color: aquamarine;
+    background-color: palevioletred;
     display: flex;
     height: 400px;
 }
@@ -174,12 +175,11 @@ footer {
 }
 
 .contentContainer {
-    /* background-color: grey; */
+    background-color: rgb(128, 182, 240);
     width: 60%;
     display: flex;
-    height: 100%;
+    height: auto;
     align-items: center;
-
     /* aligned content vertically*/
     flex-direction: column;
 }
@@ -227,7 +227,6 @@ footer {
 #circle-container {
     width: 300px;
     height: 300px;
-    padding: 30px;
     border-style: none;
     border-width: 1px;
     border-radius: 50%;
@@ -245,7 +244,7 @@ footer {
 }
 
 #circle-cover-bg {
-    background: url("../Images/arm.webp") no-repeat center center;
+    background: url("../Images/arm.jpeg") no-repeat center center;
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -254,7 +253,7 @@ footer {
 }
 
 #circle-cover-bg2 {
-    background: url("../Images/leg.webp") no-repeat center center;
+    background: url("../Images/laterals.jpeg") no-repeat center center;
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -318,6 +317,15 @@ footer {
     border-color: #f16c6b;
 }
 
+.workoutHeading {
+    width: 100%;
+    padding: 10px;
+}
+.workoutDescription {
+    width: 100%;
+    padding: 10px;
+}
+
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -348,18 +356,35 @@ footer {
 
 @media screen and (max-width: 800px) {
     .workoutSection {
+        display: flex;
         flex-direction: column;
-        padding: 15px;
-    }
+        height: auto;
     }
 
     .imageContainer {
         width: 100%;
         height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .contentContainer {
+        flex: auto;
         width: 100%;
         height: auto;
+        padding-bottom: 5%;
+    }
+
+    .reverseColumn {
+        flex-direction: column-reverse;
+    }
+
+    .workoutDescription{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .workoutHeading{
+        padding-top: 10px;
     }
   }
