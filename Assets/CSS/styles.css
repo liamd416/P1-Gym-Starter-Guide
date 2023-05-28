@@ -70,9 +70,6 @@ header a {
     padding-top: 20px;
 }
 
-.contentParagraph {
-    /* margin-bottom: 15px; */
-}
 
 .infoBulletContainer {
     display: flex;
@@ -209,33 +206,9 @@ li {
     padding: 5%;
 }
 
-#rightTopHomeText {
-    /* margin-bottom: 10%; */
-}
 
-#rightBottomHomeText {}
 
-#imageStyle {
-    height: 100%;
-    /* 
-    POTENTIAL ANIMATION FEATURE
 
-    animation-name: imageAnimation;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    overflow: hidden;
-    */
-}
-
-/* @keyframes imageAnimation {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-*/
 footer {
     /* position: static; */
     height: auto;
@@ -350,8 +323,18 @@ th {
     opacity: 0.8;
 }
 
-#circle-cover-bg2 {
+#circle-shoulder-bg {
     background: url("../Images/laterals.jpeg") no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+    scale: 1.0;
+    opacity: 0.8;
+}
+
+#circle-leg-bg {
+    background: url("../Images/leg.webp") no-repeat center center;
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -366,11 +349,15 @@ th {
     transform: scale(1.1);
 }
 
-#circle-cover-bg2:hover {
+#circle-shoulder-bg:hover {
     opacity: 1;
     transform: scale(1.1);
 }
 
+#circle-leg-bg:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
 
 /* Contact form*/
 
