@@ -18,10 +18,15 @@ Gym Starter Guide is a website designed for those who are trying to workout but 
 
 * [**Home**](<#home>)
 * [Menu](<#menu>)
-* [Home-Layout] (<#home-layout>)
-* [Elements] (<#home-elemenrts>)
-* [Footer] (<#footer>)
+* [Home-Layout](<#home-layout>)
+* [Elements](<#home-elements>)
+* [Footer](<#footer>)
 
 * [**Workouts**](<#workouts>)
-*[]
+* [Workout-Layout](<#workout-layout>)
+* [Elements](<#home-elements>)
+* [Footer](<#footer>)
+
+* [**Contact-Us**](<#contact-us>)
+
 
