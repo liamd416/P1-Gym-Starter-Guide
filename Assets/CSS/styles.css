@@ -410,6 +410,7 @@ th {
 .workoutDescription {
     width: auto;
     padding: 10px;
+    text-align: center;
 }
 
 .join-button {
