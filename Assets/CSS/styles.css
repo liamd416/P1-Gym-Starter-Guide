@@ -314,7 +314,7 @@ th {
     margin: 0 auto;
 }
 
-#circle-cover-bg {
+#circle-arm-bg {
     background: url("../Images/arm.jpeg") no-repeat center center;
     background-position: center;
     background-size: cover;
@@ -343,8 +343,17 @@ th {
     opacity: 0.8;
 }
 
+#circle-back-bg {
+    background: url("../Images/leg.webp") no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+    scale: 1.0;
+    opacity: 0.8;
+}
 
-#circle-cover-bg:hover {
+#circle-arm-bg:hover {
     opacity: 1;
     transform: scale(1.1);
 }
@@ -355,6 +364,11 @@ th {
 }
 
 #circle-leg-bg:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#circle-back-bg:hover {
     opacity: 1;
     transform: scale(1.1);
 }
