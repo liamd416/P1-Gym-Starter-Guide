@@ -28,5 +28,6 @@ Gym Starter Guide is a website designed for those who are trying to workout but 
 * [Footer](<#footer>)
 
 * [**Contact-Us**](<#contact-us>)
-
+* [Form-design](<#form-design>)
+* [Form-Functionality](<#form-function>)
 

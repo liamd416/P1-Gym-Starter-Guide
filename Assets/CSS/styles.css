@@ -283,7 +283,8 @@ th {
 }
 
 .workoutTable thead {
-    background-color: #a3a3a3;
+    background-color: #333333;
+    color: #fafafa;
 }
 
 #armMedia {
