@@ -353,6 +353,16 @@ th {
     opacity: 0.8;
 }
 
+#circle-core-bg {
+    background: url("../Images/core.jpg") no-repeat center center;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+
 #circle-arm-bg:hover {
     opacity: 1;
     transform: scale(1.1);
@@ -369,6 +379,11 @@ th {
 }
 
 #circle-back-bg:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#circle-core-bg:hover {
     opacity: 1;
     transform: scale(1.1);
 }
