@@ -97,6 +97,10 @@ The live link can be found here - https://liamd416.github.io/P1-Gym-Starter-Guid
 
 - The Media Query's were templated from the love-running project: https://liamd416.github.io/love-running/
 
+- The Social Media Icons was provided by font awesome: https://fontawesome.com/
+
+- The Social Media Footer was inspired by code provided by https://learn.codeinstitute.net/dashboard
+
 ### Media
 - The main bodybuilder image for the home page was taken from: https://www.muscleandfitness.com/flexonline/ifbb/frank-zane-the-thinking-mans-bodybuilder/
 
